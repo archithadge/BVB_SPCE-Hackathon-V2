@@ -18,7 +18,8 @@ To get the benefit of government schemes citizens have to create accounts on the
 ### <ins>Key features</ins>-
 
 
-![image](https://user-images.githubusercontent.com/66313569/109385827-9e7d7780-791c-11eb-9109-c8b6f5737176.png)
+![image](https://user-images.githubusercontent.com/66313569/109385871-e4d2d680-791c-11eb-8870-1f7294c7a325.png)
+
 
 
 
