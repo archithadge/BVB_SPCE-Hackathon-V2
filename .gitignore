@@ -1,0 +1,5 @@
+/backend/node_modules
+/backend/controllers/chatroomController.js
+/backend/models/Chatroom.js 
+/backend/models/Message.js 
+/backend/chatroom.js 
