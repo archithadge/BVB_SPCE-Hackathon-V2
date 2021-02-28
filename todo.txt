@@ -1,1 +1,3 @@
-frontend
+frontend main page
+remove chat rooms
+add functionality for a poll
