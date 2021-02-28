@@ -5,6 +5,9 @@ require('dotenv').config();
 const mongoose=require('mongoose');
 mongoose.connect(process.env.DATABASE,{ useNewUrlParser: true,useUnifiedTopology: true });
 
+
+
+
 mongoose.connection.on('error',(err)=>{
     console.log("MongoDB error"+err.message);
 });
@@ -14,7 +17,8 @@ mongoose.connection.once('open',(err)=>{
 })
 
 require('./models/User');
-// require('./models/Chatroom');
+require('./models/Reform');
+require('./models/Department');
 // require('./models/Message');
 const app=require('./app');
 
@@ -31,7 +35,7 @@ const server=app.listen(process.env.PORT,()=>{
 //     }
 //   });
 const jwt=require('jwt-then');
-// const Message=mongoose.model('Message');
+// // const Message=mongoose.model('Message');
 const User=mongoose.model('User');
 
 // io.use(async (socket,next)=>{
