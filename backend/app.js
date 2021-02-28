@@ -12,6 +12,7 @@ app.use(require('cors')());
 app.use('/user',require('./routes/user'));
 app.use('/reform',require('./routes/reform'));
 app.use('/department',require('./routes/department'));
+app.use('/poll',require('./routes/poll'));
 
 
 //Error handlers

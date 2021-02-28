@@ -19,6 +19,7 @@ mongoose.connection.once('open',(err)=>{
 require('./models/User');
 require('./models/Reform');
 require('./models/Department');
+require('./models/Poll');
 // require('./models/Message');
 const app=require('./app');
 
