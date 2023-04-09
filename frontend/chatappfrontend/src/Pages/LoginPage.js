@@ -28,11 +28,11 @@ class LoginPage extends Component {
 
         return (
             <div>
-                <div class="login-div">
-                    <div class="logo"></div>
-                    <div class="title">Sign Up</div>
-                    <div class="sub-title">BETA</div>
-                    <div class="fields">
+                <div className="login-div">
+                    <div className="logo"></div>
+                    <div className="title">Sign Up</div>
+                    <div className="sub-title">BETA</div>
+                    <div className="fields">
                         {/* <div class="name">
                             <input
                                 type="text"
@@ -43,20 +43,20 @@ class LoginPage extends Component {
                                 ref={nameRef}
                             />
                         </div> */}
-                        <div class="username">
+                        <div className="username">
                             <input
                                 type="email"
-                                class="user-input"
+                                className="user-input"
                                 placeholder="username"
                                 name="email"
                                 required
                                 ref={emailRef}
                             />
                         </div>
-                        <div class="password">
+                        <div className="password">
                             <input
                                 type="password"
-                                class="pass-input"
+                                className="pass-input"
                                 placeholder="password"
                                 name="password"
                                 pattern=".{8,12}"
@@ -66,9 +66,9 @@ class LoginPage extends Component {
                             />
                         </div>
                     </div>
-                    <button onClick={loginUser} class="signin-button">Login</button>
+                    <button onClick={loginUser} className="signin-button">Login</button>
 
-                    <div class="link">
+                    <div className="link">
                         <p>Don't have an account ?</p>
                         <a href="/register">Register</a>
                     </div>

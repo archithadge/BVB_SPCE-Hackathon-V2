@@ -20,7 +20,6 @@ exports.register=async (req,res)=>{
 exports.login=async (req,res)=>{
     const email=req.body.email;
     const password=req.body.password;
-
     const user=await User.findOne({
         email,
         password:sha256(password+process.env.SALT)
