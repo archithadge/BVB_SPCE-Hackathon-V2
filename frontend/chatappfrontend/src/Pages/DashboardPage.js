@@ -67,13 +67,13 @@ const DashboardPage = (props) => {
     }
 
     React.useEffect(() => {
-        getChatrooms();
+       // getChatrooms();
         getReforms();
     }, [])
     return (
         <div>
-            <input type="text" name="chatroomName" id="chatroomName" ref={inputRef} />
-            <button onClick={createChatroom}>Create chatroom</button>
+            {/* <input type="text" name="chatroomName" id="chatroomName" ref={inputRef} />
+            <button onClick={createChatroom}>Create chatroom</button> */}
             <h1>Create reform</h1>
             <input type='text' ref={uploaderRef} placeholder='uploader'></input>
             <input type='text' ref={textRef}></input>
